@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(73, 66, 86);
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.glow-hover {
+
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(203, 150, 244, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+  border: 5px white solid ;
+  border-radius: 20px;
+  background-color: rgb(223, 251, 242);
+}
+.glow-hover h5{
+  color: brown;
+  font-weight: 700;
+}
+.glow-hover p{
+  color: black;
+}
+.glow-hover:hover {
+  box-shadow: 0 0 10px rgba(198, 155, 238, 0.8), 0 0 25px rgba(220, 157, 249, 0.6);
+  
+}
+.navbar{
+  box-shadow: 0 -10px 25px rgba(246, 238, 248, 0.5);
+}
+.navbar-dark{
+  background-color: rgb(52, 39, 56);
+}
+
